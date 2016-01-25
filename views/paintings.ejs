@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>    
+  </head>
+  <body class="<%= bodyClass %>">
+    <% include partials/template/header.ejs %> 
+    <section class="container main-content">
+      <div class="row">
+        <div class="col-sm-12 primary">
+          <% include partials/content/content-paintings.ejs %>
+        </div> <!-- primary -->
+      </div>
+      <% include partials/template/jsdefaults.ejs %>  
+    </section><!-- container -->
+
+    <% include partials/template/footer.ejs %> 
+  </body>
+</html>

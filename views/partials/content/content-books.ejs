@@ -1,0 +1,11 @@
+<h2>Libros & Publicaciones</h2>
+<ul class="books-list-full">
+  <% for(var i=0; i < books.length; i++){ %>
+    <li class="book-full">
+      <a href="/libros/<%= books[i].shortLink %>">
+              <img src="/images/books/<%= books[i].image %>">
+              <div class="title"><%= books[i].title %></div>
+      </a>
+    </li>
+  <% } %>
+</ul>

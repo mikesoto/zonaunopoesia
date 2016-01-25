@@ -1,0 +1,16 @@
+<h2>Próximos Talleres</h2>
+<ul class="talleres-list">
+        <% for(var i=0; i < talleres.length; i++){ %>
+                <li>
+                        <a href="/talleres/<%= talleres[i].shortLink %>">
+                                <div class="title"><%= talleres[i].name %></div>
+                                <div class="sumary"><%= talleres[i].excerpt %></div>
+                                <div class="sumary"><%= talleres[i].date %></div>
+                                <div class="sumary"><%= talleres[i].location %></div>
+                        </a>
+                </li>
+        <% } %>
+        <div class="text-center">
+                <strong><a href="/talleres">Listado de Talleres</a></strong>
+        </div>
+</ul>

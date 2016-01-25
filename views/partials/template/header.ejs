@@ -1,0 +1,37 @@
+<section class="container header-content"> 
+  <header>
+    <div class="banner-main">
+      <section class="site-title">
+        Zona Uno Poecía
+      </section>
+      <section class="site-subtitle">
+        Lorem ipsum dolor sit amet<br/>
+        consectetur adipiscing elit. <br/>
+        Morbi et tristique nibh. <br/>
+        <span class="author-cred">- Victor Sosa</span>
+      </section>
+    </div><!-- banner-main --></div>
+    <div class="navigation">
+      <div class="row">
+        <div class="col-sm-8">
+          <ul class="main-nav">
+            <li><a href="/"><i class="fa fa-home"></i> Inicio</a></li>
+            <li><a href="/talleres"><i class="fa fa-graduation-cap"></i> Talleres</a></li>
+            <li><a href="/libros"><i class="fa fa-book"></i> Libros</a></li>
+            <li><a href="/pinturas"><i class="fa fa-paint-brush"></i> Pinturas</a></li>
+            <li><a href="/videos"><i class="fa fa-play"></i> Videos</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="socialmedia-nav">
+              <% for(var i=0; i < socialmedia.length; i++){ %>
+                <a href="<%= socialmedia[i].url %>" class="social-icon-nav">
+                        <i class="fa <%= socialmedia[i].icon %>"></i>
+                </a>
+              <% } %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><!-- header -->
+</section><!-- container -->

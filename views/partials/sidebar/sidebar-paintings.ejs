@@ -1,0 +1,11 @@
+<h2>Pinturas</h2>
+<section class="paint-container">
+  <% for(var i=0; i < paintings.length; i++){ %>
+    <a href="/pinturas/<%= paintings[i].shortLink %>" class="side-paint-thumb" style="background-image:url('/images/artwork/<%= paintings[i].image %>');">
+            <div class="paint-thumb-title"><%= paintings[i].name %></div>
+    </a>
+  <% } %>
+</section>
+<div class="text-center">
+  <strong><a href="/pinturas">Listado de Pinturas</a></strong>
+</div>

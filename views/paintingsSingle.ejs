@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>    
+  </head>
+  <body class="<%= bodyClass %>">
+        <% include partials/template/header.ejs %> 
+        <section class="container main-content">
+          <div class="row">
+            <div class="col-sm-12 primary">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1>Pintura: <%= painting.name %></h1>
+                </div>
+                <div class="col-sm-6 text-right">
+                  <h2><a href="/pinturas"><i class="fa fa-arrow-circle-left"></i> Listado de Pinturas</a></h2>
+                </div>
+              </div>
+              <div class="col-sm-12 text-center">
+                <img class="paint-single" src="/images/artwork/<%= painting.image %>">
+              </div>
+              <div class="col-sm-12">
+                <h4>Resumen:</h4>
+                <p><%= painting.excerpt %></p>
+              </div>
+            </div> <!-- primary -->
+          </div>
+          <% include partials/template/jsdefaults.ejs %>  
+        </section><!-- container -->
+    <% include partials/template/footer.ejs %> 
+  </body>
+</html>

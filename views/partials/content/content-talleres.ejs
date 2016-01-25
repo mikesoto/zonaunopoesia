@@ -1,0 +1,14 @@
+<h1>Listado De Talleres</h1>
+<ul class="talleres-list-full">
+        <% for(var i=0; i < talleres.length; i++){ %>
+                <li class="taller-full">
+                        <a href="/talleres/<%= talleres[i].shortLink %>">
+                                <div class="title"><h3><%= talleres[i].name %></h3></div>
+                                <div class="excerpt"><strong>De que se trata</strong>: <%= talleres[i].excerpt %></div>
+                                <div class="date"><strong>Cuando</strong>: <%= talleres[i].date %></div>
+                                <div class="location"><strong>Donde</strong>: <%= talleres[i].location %></div>
+                                <div class="location"><strong>Dirigido Por</strong>: <%= talleres[i].director %></div>
+                        </a>
+                </li>
+        <% } %>
+</ul>

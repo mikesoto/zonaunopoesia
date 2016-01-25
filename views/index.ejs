@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>    
+  </head>
+  <body class="<%= bodyClass %>" >
+    <% include partials/template/header.ejs %> 
+    <section class="container main-content">
+      <div class="row">
+        <div class="col-sm-8 primary">
+          <% include partials/content/content-bienvenido.ejs %>
+          <% include partials/content/content-biografia.ejs %>
+          <% include partials/content/content-video-destacado.ejs %>
+        </div> <!-- primary -->
+
+        <aside class="col-sm-4 secondary">
+            <% include partials/sidebar/sidebar.ejs %>
+        </aside> <!-- secondary -->
+      </div>
+      <% include partials/template/jsdefaults.ejs %>  
+    </section><!-- container -->
+    <% include partials/template/footer.ejs %> 
+  </body>
+</html>

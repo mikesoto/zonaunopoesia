@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>    
+  </head>
+  <body class="<%= bodyClass %>">
+    <% include partials/template/header.ejs %> 
+    <section class="container main-content">
+      <div class="row">
+        <div class="col-sm-12 primary">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>Taller: <%= taller.name %></h1>
+            </div>
+            <div class="col-sm-6 text-right">
+              <h2><a href="/talleres"><i class="fa fa-arrow-circle-left"></i> Listado de Talleres</a></h2>
+            </div>
+          </div>
+          <div>Dirigido por: <%= taller.director %></div>
+          <div>Costo: $<%= taller.cost %></div>
+          <div>Ubicacion: <%= taller.location %></div>
+          <div>Fecha: <%= taller.date %></div>
+          <div>Contacto: <%= taller.contact %></div>
+          <div>Resumen: <%= taller.excerpt %></div>
+          <div>
+            Literatura :
+            <ul>
+              <% for(var i=0; i < taller.literatura.length; i++){ %>
+                <li><%= taller.literatura[i].poema %> , <%= taller.literatura[i].author %> </li>
+              <% } %>
+            </ul>
+          </div>
+          <hr/>
+        </div> <!-- primary -->
+      </div>
+      <% include partials/template/jsdefaults.ejs %>  
+    </section><!-- container -->
+    <% include partials/template/footer.ejs %> 
+  </body>
+</html>

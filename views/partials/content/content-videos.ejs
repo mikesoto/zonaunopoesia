@@ -1,0 +1,8 @@
+<h1>Listado De Videos</h1>
+<ul class="videos-list-full">
+        <% for(var i=0; i < videos.length; i++){ %>
+                <li class="video-full">
+                        <iframe width="700px" height="400px" src="<%= videos[i].url %>" frameborder="0" allowfullscreen></iframe>
+                </li>
+        <% } %>
+</ul>

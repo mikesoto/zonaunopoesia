@@ -1,0 +1,11 @@
+<h1>Listado De Pinturas</h1>
+<ul class="paintings-list-full">
+        <% for(var i=0; i < paintings.length; i++){ %>
+                <li class="painting">
+                        <a href="/pinturas/<%= paintings[i].shortLink %>">
+                                <div class="title"><h3><%= paintings[i].name %></h3></div>
+                                <%- paintings[i].image %>
+                        </a>
+                </li>
+        <% } %>
+</ul>
