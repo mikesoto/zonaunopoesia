@@ -1,0 +1,127 @@
+{
+	"talleres":[
+		{
+			"name" : "Seminario Permanente de Apreciación Poética",
+			"director" : "Victor Sosa",
+			"cost": 2000,
+			"location": "Uxmal 371-1, Narvarte, México, D.F.",
+			"date": "Todos los miércoles de 19.00 a 21:00 horas.",
+			"contact": "tels. 5682 0301 / 55 3196 7671 poesiazonauno@gmail.com",
+			"excerpt" : "Lorem Ipsum Dolor Sit Amet",
+			"shortLink" : "seminarioPermanente",
+			"literatura" : [
+				{"poema" : "Cantar y contar (sobre el poema extenso)", "author" : "Octavio Paz"},
+				{"poema" : "Canto a mí mismo", "author" : "Walt Whitman"},
+				{"poema" : "Un tiro de dados jamás abolirá el azar", "author" : "Stéphane Mallarmé"},
+				{"poema" : "La prosa del transiberiano y de la pequeña Juana de Francia", "author" : "Blaise Cendrars"},
+				{"poema" : "El perro sin plumas", "author" : "Joao Cabral de Melo Neto"},
+				{"poema" : "Pasado en claro y Blanco", "author" : "Octavio Paz"}
+			]
+		},
+		{
+			"name" : "El Arte del Haiku",
+			"director" : "Victor Sosa",
+			"cost": 2300,
+			"location": "Uxmal 371-1, Narvarte, México, D.F.",
+			"date": "Todos los miércoles de 19.00 a 21:00 horas.",
+			"contact": "tels. 5682 0301 / 55 3196 7671 poesiazonauno@gmail.com",
+			"excerpt" : "Lorem Ipsum Dolor Sit Amet",
+			"shortLink" : "arte-de-haiku","literatura": [
+				{"poema" : "La tierra baldía y Cuatro cuartetos", "author" : "T.S. Eliot"},
+				{"poema" : "Anabasis", "author" : "Saint-John Perse"},
+				{"poema" : "La nube en pantalones", "author" : "Vladimir Maiakovski"},
+				{"poema" : "Altazor", "author" : "Vicente Huidobro"},
+				{"poema" : "Canto a un dios mineral", "author" : "Jorge Cuesta"},
+				{"poema" : "Sonata del claro de luna", "author" : "Yannis Ritsos"},
+				{"poema" : "Alturas de Macchu Picchu", "author" : "Pablo Neruda"}
+			]
+		},
+		{
+			"name" : "Poiesis/Laboratorio de Cre-Acción Poética",
+			"director" : "Victor Sosa",
+			"cost": 1500,
+			"location": "Uxmal 371-1, Narvarte, México, D.F.",
+			"date": "Todos los miércoles de 19.00 a 21:00 horas.",
+			"contact": "tels. 5682 0301 / 55 3196 7671 poesiazonauno@gmail.com",
+			"excerpt" : "Lorem Ipsum Dolor Sit Amet",
+			"shortLink" : "poiesis-lab-creacion-poetica",
+			"literatura": [
+				{"poema" : "La música del desierto", "author" : "William Carlos Williams"},
+				{"poema" : "Cántico cósmico", "author" : "Ernesto Cardenal"},
+				{"poema" : "Galaxias", "author" : "Haroldo de Campos"},
+				{"poema" : "Hospital Británico", "author" : "Héctor Viel Temperley"},
+				{"poema" : "Los animales furiosos", "author" : "Víctor Sosa"}
+			]
+		}
+	],
+	"socialmedia":[
+		{
+			"name" : "Facebook",
+			"url": "http://facebook.com",
+			"icon": "fa-facebook-square"
+		},
+		{
+			"name" : "Twitter",
+			"url": "http://twitter.com",
+			"icon": "fa-twitter-square"
+		},
+		{
+			"name" : "YouTube",
+			"url": "http://youtube.com",
+			"icon": "fa-youtube-square"
+		}
+	],
+	"videos":[
+		{
+			"name" : "Octavio Paz: el instante fecundo, 4",
+			"url": "https://www.youtube.com/embed/7RoZx1mk4k4"
+		},
+		{
+			"name" : "Presentación del libro Nagasakipanema(1/4)",
+			"url": "https://www.youtube.com/embed/iNVW5Hid1lI"
+		}
+	],
+	"paintings":[
+		{
+			"name" : "Painting 1",
+			"image": "paint1.jpg",
+			"shortLink": "painting-1",
+			"cloudinary_id" : "paint1_sttfpo.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		},
+		{
+			"name" : "Painting 2",
+			"image": "paint2.jpg",
+			"shortLink": "painting-2",
+			"cloudinary_id" : "paint2_jr0ycb.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		},
+		{
+			"name" : "Painting 3",
+			"image": "paint3.jpg",
+			"shortLink": "painting-3",
+			"cloudinary_id" : "paint3_qvihq0.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		}
+	],
+	"books":[
+		{
+			"title" : "book 1",
+			"shortLink" : "book1",
+			"image": "book1.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		},
+		{
+			"title" : "book 2",
+			"shortLink" : "book2",
+			"image": "book2.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		},
+			{
+			"title" : "book 3",
+			"shortLink" : "book3",
+			"image": "book3.jpg",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tristique nibh. Aliquam nec sodales arcu, vel sollicitudin risus. Nulla facilisi. Donec ultrices nisi purus, ac aliquet dolor fermentum vitae. Ut ornare maximus tempor. Sed interdum et massa vitae suscipit."
+		}
+	]
+}
